@@ -157,7 +157,7 @@ a#view:hover {
   background-image: url("../img/bl-wh-1.jpg");
   background-size: cover;
   opacity: 0;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -171,7 +171,7 @@ a#view:hover {
   background-image: url("../img/rd-pd-1.jpg");
   background-size: cover;
   opacity: 0;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -185,7 +185,7 @@ a#view:hover {
   background-image: url("../img/wh-sh-1.jpg");
   background-size: cover;
   opacity: 0;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -199,7 +199,7 @@ a#view:hover {
   background-image: url("../img/wh-sh-2.jpg");
   background-size: cover;
   opacity: 0;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -213,7 +213,7 @@ a#view:hover {
   background-image: url("../img/dg-1.jpg");
   background-size: cover;
   opacity: 0;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -227,7 +227,7 @@ a#view:hover {
   background-image: url("../img/sm-rh-1.jpg");
   background-size: cover;
   opacity: 0;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
