@@ -161,7 +161,6 @@ a#view:hover::after,
   font-weight: 500;
 }
 
-/* Tabel Start */
 table {
   width: 90%;
 }
@@ -169,6 +168,11 @@ table {
 td {
   width: 50%;
   padding: 1rem;
+}
+
+.img {
+  text-align: center;
+  vertical-align: top;
 }
 
 .text {
@@ -223,7 +227,7 @@ td {
   background-image: url("../img/bl-wh-1.jpg");
   background-size: cover;
   opacity: 1;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -237,7 +241,7 @@ td {
   background-image: url("../img/rd-pd-1.jpg");
   background-size: cover;
   opacity: 1;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -251,7 +255,7 @@ td {
   background-image: url("../img/wh-sh-1.jpg");
   background-size: cover;
   opacity: 1;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -265,7 +269,7 @@ td {
   background-image: url("../img/wh-sh-2.jpg");
   background-size: cover;
   opacity: 1;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -273,13 +277,13 @@ td {
   content: "";
   position: absolute;
   top: 10rem;
-  left:0rem;
+  left: 0rem;
   width: 20rem;
   height: 14rem;
   background-image: url("../img/dg-1.jpg");
   background-size: cover;
   opacity: 1;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 
@@ -293,7 +297,7 @@ td {
   background-image: url("../img/sm-rh-1.jpg");
   background-size: cover;
   opacity: 1;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
 /* View Section End */
