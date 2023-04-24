@@ -8,6 +8,48 @@ window.addEventListener("scroll", () => {
   }
 });
 
+const images = [
+  [
+    '<img src="" alt="blue whale">',
+    '<img src="" alt="blue whale">',
+    '<img src="" alt="blue whale">',
+    '<img src="" alt="blue whale">',
+    '<img src="" alt="blue whale">',
+  ],
+
+  [
+    '<img src="" alt="great white shark">',
+    '<img src="" alt="great white shark">',
+    '<img src="" alt="great white shark">',
+    '<img src="" alt="great white shark">',
+    '<img src="" alt="great white shark">',
+  ],
+
+  [
+    '<img src="" alt="red panda">',
+    '<img src="" alt="red panda">',
+    '<img src="" alt="red panda">',
+    '<img src="" alt="red panda">',
+    '<img src="" alt="red panda">',
+  ],
+
+  [
+    '<img src="" alt="dugong">',
+    '<img src="" alt="dugong">',
+    '<img src="" alt="dugong">',
+    '<img src="" alt="dugong">',
+    '<img src="" alt="dugong">',
+  ],
+
+  [
+    '<img src="" alt="sumatran rhinoceros">',
+    '<img src="" alt="sumatran rhinoceros">',
+    '<img src="" alt="sumatran rhinoceros">',
+    '<img src="" alt="sumatran rhinoceros">',
+    '<img src="" alt="sumatran rhinoceros">',
+  ],
+];
+
 const desc = [
   [
     "Blue Whale",
@@ -132,17 +174,26 @@ const animal2 = document.querySelector("#great-white-shark");
 const animal3 = document.querySelector("#red-panda");
 const animal4 = document.querySelector("#dugong");
 const animal5 = document.querySelector("#sumatran-rhinoceros");
+
 const nav1 = document.querySelector("#blue-whale-nav");
 const nav2 = document.querySelector("#great-white-shark-nav");
 const nav3 = document.querySelector("#red-panda-nav");
 const nav4 = document.querySelector("#dugong-nav");
 const nav5 = document.querySelector("#sumatran-rhinoceros-nav");
+
 const title = document.querySelector("#title-1");
+
 const desc1 = document.querySelector("#desc-1");
 const desc2 = document.querySelector("#desc-2");
 const desc3 = document.querySelector("#desc-3");
 const desc4 = document.querySelector("#desc-4");
 const desc5 = document.querySelector("#desc-5");
+
+const images1 = document.querySelector("#img-1");
+const images2 = document.querySelector("#img-2");
+const images3 = document.querySelector("#img-3");
+const images4 = document.querySelector("#img-4");
+const imgage5 = document.querySelector("#img-5");
 
 animal1.addEventListener("click", () => {
   title.textContent = desc[0][0];
@@ -151,6 +202,11 @@ animal1.addEventListener("click", () => {
   desc3.innerHTML = desc[0][3];
   desc4.innerHTML = desc[0][4];
   desc5.innerHTML = desc[0][5];
+  images1.innerHTML = images[0][0];
+  images2.innerHTML = images[0][1];
+  images3.innerHTML = images[0][2];
+  images4.innerHTML = images[0][3];
+  images5.innerHTML = images[0][4];
 });
 
 animal2.addEventListener("click", () => {
@@ -160,6 +216,11 @@ animal2.addEventListener("click", () => {
   desc3.innerHTML = desc[1][3];
   desc4.innerHTML = desc[1][4];
   desc5.innerHTML = desc[1][5];
+  images1.innerHTML = images[1][0];
+  images2.innerHTML = images[1][1];
+  images3.innerHTML = images[1][2];
+  images4.innerHTML = images[1][3];
+  images5.innerHTML = images[1][4];
 });
 
 animal3.addEventListener("click", () => {
@@ -169,6 +230,11 @@ animal3.addEventListener("click", () => {
   desc3.innerHTML = desc[2][3];
   desc4.innerHTML = desc[2][4];
   desc5.innerHTML = desc[2][5];
+  images1.innerHTML = images[2][0];
+  images2.innerHTML = images[2][1];
+  images3.innerHTML = images[2][2];
+  images4.innerHTML = images[2][3];
+  images5.innerHTML = images[2][4];
 });
 
 animal4.addEventListener("click", () => {
@@ -178,6 +244,11 @@ animal4.addEventListener("click", () => {
   desc3.innerHTML = desc[3][3];
   desc4.innerHTML = desc[3][4];
   desc5.innerHTML = desc[3][5];
+  images1.innerHTML = images[3][0];
+  images2.innerHTML = images[3][1];
+  images3.innerHTML = images[3][2];
+  images4.innerHTML = images[3][3];
+  images5.innerHTML = images[3][4];
 });
 
 animal5.addEventListener("click", () => {
@@ -187,6 +258,11 @@ animal5.addEventListener("click", () => {
   desc3.innerHTML = desc[4][3];
   desc4.innerHTML = desc[4][4];
   desc5.innerHTML = desc[4][5];
+  images1.innerHTML = images[4][0];
+  images2.innerHTML = images[4][1];
+  images3.innerHTML = images[4][2];
+  images4.innerHTML = images[4][3];
+  images5.innerHTML = images[4][4];
 });
 
 nav1.addEventListener("click", () => {
@@ -196,6 +272,11 @@ nav1.addEventListener("click", () => {
   desc3.innerHTML = desc[0][3];
   desc4.innerHTML = desc[0][4];
   desc5.innerHTML = desc[0][5];
+  images1.innerHTML = images[0][0];
+  images2.innerHTML = images[0][1];
+  images3.innerHTML = images[0][2];
+  images4.innerHTML = images[0][3];
+  images5.innerHTML = images[0][4];
 });
 
 nav2.addEventListener("click", () => {
@@ -205,6 +286,11 @@ nav2.addEventListener("click", () => {
   desc3.innerHTML = desc[1][3];
   desc4.innerHTML = desc[1][4];
   desc5.innerHTML = desc[1][5];
+  images1.innerHTML = images[1][0];
+  images2.innerHTML = images[1][1];
+  images3.innerHTML = images[1][2];
+  images4.innerHTML = images[1][3];
+  images5.innerHTML = images[1][4];
 });
 
 nav3.addEventListener("click", () => {
@@ -214,6 +300,11 @@ nav3.addEventListener("click", () => {
   desc3.innerHTML = desc[2][3];
   desc4.innerHTML = desc[2][4];
   desc5.innerHTML = desc[2][5];
+  images1.innerHTML = images[2][0];
+  images2.innerHTML = images[2][1];
+  images3.innerHTML = images[2][2];
+  images4.innerHTML = images[2][3];
+  images5.innerHTML = images[2][4];
 });
 
 nav4.addEventListener("click", () => {
@@ -223,6 +314,11 @@ nav4.addEventListener("click", () => {
   desc3.innerHTML = desc[3][3];
   desc4.innerHTML = desc[3][4];
   desc5.innerHTML = desc[3][5];
+  images1.innerHTML = images[3][0];
+  images2.innerHTML = images[3][1];
+  images3.innerHTML = images[3][2];
+  images4.innerHTML = images[3][3];
+  images5.innerHTML = images[3][4];
 });
 
 nav5.addEventListener("click", () => {
@@ -232,4 +328,9 @@ nav5.addEventListener("click", () => {
   desc3.innerHTML = desc[4][3];
   desc4.innerHTML = desc[4][4];
   desc5.innerHTML = desc[4][5];
+  images1.innerHTML = images[4][0];
+  images2.innerHTML = images[4][1];
+  images3.innerHTML = images[4][2];
+  images4.innerHTML = images[4][3];
+  images5.innerHTML = images[4][4];
 });
