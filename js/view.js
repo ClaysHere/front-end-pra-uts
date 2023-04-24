@@ -290,11 +290,11 @@ nav2.addEventListener("click", () => {
   desc3.innerHTML = desc[1][3];
   desc4.innerHTML = desc[1][4];
   desc5.innerHTML = desc[1][5];
-  image1.innerHTML = images[0][0];
-  image2.innerHTML = images[0][1];
-  image3.innerHTML = images[0][2];
-  image4.innerHTML = images[0][3];
-  image5.innerHTML = images[0][4];
+  image1.innerHTML = images[1][0];
+  image2.innerHTML = images[1][1];
+  image3.innerHTML = images[1][2];
+  image4.innerHTML = images[1][3];
+  image5.innerHTML = images[1][4];
 });
 
 nav3.addEventListener("click", () => {
@@ -304,11 +304,11 @@ nav3.addEventListener("click", () => {
   desc3.innerHTML = desc[2][3];
   desc4.innerHTML = desc[2][4];
   desc5.innerHTML = desc[2][5];
-  image1.innerHTML = images[0][0];
-  image2.innerHTML = images[0][1];
-  image3.innerHTML = images[0][2];
-  image4.innerHTML = images[0][3];
-  image5.innerHTML = images[0][4];
+  image1.innerHTML = images[2][0];
+  image2.innerHTML = images[2][1];
+  image3.innerHTML = images[2][2];
+  image4.innerHTML = images[2][3];
+  image5.innerHTML = images[2][4];
 });
 
 nav4.addEventListener("click", () => {
@@ -318,11 +318,11 @@ nav4.addEventListener("click", () => {
   desc3.innerHTML = desc[3][3];
   desc4.innerHTML = desc[3][4];
   desc5.innerHTML = desc[3][5];
-  image1.innerHTML = images[0][0];
-  image2.innerHTML = images[0][1];
-  image3.innerHTML = images[0][2];
-  image4.innerHTML = images[0][3];
-  image5.innerHTML = images[0][4];
+  image1.innerHTML = images[3][0];
+  image2.innerHTML = images[3][1];
+  image3.innerHTML = images[3][2];
+  image4.innerHTML = images[3][3];
+  image5.innerHTML = images[3][4];
 });
 
 nav5.addEventListener("click", () => {
@@ -332,9 +332,9 @@ nav5.addEventListener("click", () => {
   desc3.innerHTML = desc[4][3];
   desc4.innerHTML = desc[4][4];
   desc5.innerHTML = desc[4][5];
-  image1.innerHTML = images[0][0];
-  image2.innerHTML = images[0][1];
-  image3.innerHTML = images[0][2];
-  image4.innerHTML = images[0][3];
-  image5.innerHTML = images[0][4];
+  image1.innerHTML = images[4][0];
+  image2.innerHTML = images[4][1];
+  image3.innerHTML = images[4][2];
+  image4.innerHTML = images[4][3];
+  image5.innerHTML = images[4][4];
 });
