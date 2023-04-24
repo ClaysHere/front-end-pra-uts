@@ -43,46 +43,46 @@ hewan1.addEventListener("click", () => {
 console.log(target)
 
 const gambar = [
-  [
-    '<img src="../img/bl-wh-1.jpg" alt="blue whale">',
-    '<img src="../img/bl-wh-2.jpg" alt="blue whale">',
-    '<img src="../img/bl-wh-3.jpg" alt="blue whale">',
-    '<img src="../img/bl-wh-4.jpg" alt="blue whale">',
-    '<img src="../img/bl-wh-5.jpg" alt="blue whale">',
-  ],
-
-  [
-    '<img src="../img/wh-sh-5.jpg" alt="great white shark">',
-    '<img src="../img/wh-sh-2.jpg" alt="great white shark">',
-    '<img src="../img/wh-sh-4.jpg" alt="great white shark">',
-    '<img src="../img/wh-sh-6.jpg" alt="great white shark"><img src="../img/wh-sh-3.jpg" alt="great white shark"><img src="../img/wh-sh-7.jpg" alt="great white shark">',
-    '<img src="../img/wh-sh-1.jpg" alt="great white shark">',
-  ],
-
-  [
-    '<img src="../img/rd-pd-1.jpg" alt="red panda">',
-    '<img src="../img/rd-pd-2.jpg" alt="red panda">',
-    '<img src="../img/rd-pd-3.jpg" alt="red panda">',
-    '<img src="../img/rd-pd-4.jpg" alt="red panda"><img src="../img/rd-pd-6.jpg" alt="red panda">',
-    '<img src="../img/rd-pd-5.jpg" alt="red panda">',
-  ],
-
-  [
-    '<img src="../img/dg-2.jpg" alt="dugong">',
-    '<img src="../img/dg-1.jpg" alt="dugong"><img src="../img/dg-4.jpg" alt="dugong">',
-    '<img src="../img/dg-5.jpg" alt="dugong">',
-    '<img src="../img/dg-6.jpg" alt="dugong"><img src="../img/dg-7.jpg" alt="dugong">',
-    '<img src="../img/dg-3.jpg" alt="dugong">',
-  ],
-
-  [
-    '<img src="../img/sm-rh-2.jpg" alt="sumatran rhinoceros"><br><br><br><br><img src="../img/sm-rh-1.jpg" alt="sumatran rhinoceros">',
-    '<img src="../img/sm-rh-3.jpg" alt="sumatran rhinoceros"><img src="../img/sm-rh-5.jpg" alt="sumatran rhinoceros">',
-    '<img src="../img/sm-rh-4.jpg" alt="sumatran rhinoceros">',
-    '<img src="../img/sm-rh-6.jpg" alt="sumatran rhinoceros"><img src="../img/sm-rh-7.jpg" alt="sumatran rhinoceros">',
-    '<img src="../img/sm-rh-8.jpg" alt="sumatran rhinoceros">',
-  ],
-];
+    [
+      '<img src="../img/bl-wh-1.jpg" alt="blue whale">',
+      '<img src="../img/bl-wh-2.jpg" alt="blue whale">',
+      '<img src="../img/bl-wh-3.jpg" alt="blue whale">',
+      '<img src="../img/bl-wh-4.jpg" alt="blue whale">',
+      '<img src="../img/bl-wh-5.jpg" alt="blue whale">',
+    ],
+  
+    [
+      '<img src="../img/wh-sh-5.jpg" alt="great white shark">',
+      '<img src="../img/wh-sh-2.jpg" alt="great white shark">',
+      '<img src="../img/wh-sh-4.jpg" alt="great white shark">',
+      '<img src="../img/wh-sh-6.jpg" alt="great white shark"><br><br><br><br><img src="../img/wh-sh-3.jpg" alt="great white shark"><img src="../img/wh-sh-7.jpg" alt="great white shark">',
+      '<img src="../img/wh-sh-1.jpg" alt="great white shark">',
+    ],
+  
+    [
+      '<img src="../img/rd-pd-1.jpg" alt="red panda">',
+      '<img src="../img/rd-pd-2.jpg" alt="red panda">',
+      '<img src="../img/rd-pd-3.jpg" alt="red panda">',
+      '<img src="../img/rd-pd-4.jpg" alt="red panda"><br><br><br><br><img src="../img/rd-pd-6.jpg" alt="red panda">',
+      '<img src="../img/rd-pd-5.jpg" alt="red panda">',
+    ],
+  
+    [
+      '<img src="../img/dg-2.jpg" alt="dugong">',
+      '<img src="../img/dg-1.jpg" alt="dugong"><br><br><br><br><img src="../img/dg-4.jpg" alt="dugong">',
+      '<img src="../img/dg-5.jpg" alt="dugong">',
+      '<img src="../img/dg-6.jpg" alt="dugong"><br><br><br><br><img src="../img/dg-7.jpg" alt="dugong">',
+      '<img src="../img/dg-3.jpg" alt="dugong">',
+    ],
+  
+    [
+      '<img src="../img/sm-rh-2.jpg" alt="sumatran rhinoceros"><br><br><br><br><img src="../img/sm-rh-1.jpg" alt="sumatran rhinoceros">',
+      '<img src="../img/sm-rh-3.jpg" alt="sumatran rhinoceros"><br><br><br><br><img src="../img/sm-rh-5.jpg" alt="sumatran rhinoceros">',
+      '<img src="../img/sm-rh-4.jpg" alt="sumatran rhinoceros">',
+      '<img src="../img/sm-rh-6.jpg" alt="sumatran rhinoceros"><br><br><br><br><img src="../img/sm-rh-7.jpg" alt="sumatran rhinoceros">',
+      '<img src="../img/sm-rh-8.jpg" alt="sumatran rhinoceros">',
+    ],
+  ];
 
 const teks = [
     [
