@@ -217,6 +217,15 @@ td {
   color: #80ff00;
 }
 
+ol li{
+  list-style-type: decimal;
+}
+
+tr img{
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+}
 
 /* View Section End */
 
