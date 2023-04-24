@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  color: #ffffff;
+}
+
+/* Cover Start */
+.cover {
+  width: 100%;
+  height: 100vh;
+  background-color: #161b22;
+  color: #ffffff;
+}
+/* Cover End */
+
+/* Navbar Start */
+.fixed {
+  display: none;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3.9rem;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.normal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 6%;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.nav {
+  width: 30%;
+  align-items: center;
+}
+
+.nav.right {
+  justify-content: right;
+  display: flex;
+}
+
+.nav.left {
+  justify-content: left;
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.nav a:hover,
+a#view:hover {
+  color: #80ff00;
+}
+
+.nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #80ff00;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.nav a:hover::after {
+  transform: scaleX(1);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo.for-nav {
+  font-size: 2rem;
+}
+
+.logo.for-footer {
+  font-size: 1.5rem;
+}
+
+.logo a {
+  font-family: "Chivo Mono", monospace;
+}
+
+.logo a span {
+  font-style: italic;
+  color: #80ff00;
+}
+/* Navbar End */
+
+/* Linkedin Section Start */
+.linkedin {
+  width: 100%;
+  height: 94%;
+  background-color: #161b22;
+}
+
+.linkedin {
+  width: 100%;
+  background-color: #0a66c2;
+  height: 94%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.linkedin ul li a {
+  color: #0a66c2;
+}
+
+.tab-linkedin {
+  width: 50%;
+  background-color: #ffffff;
+  height: 50%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.link-linkedin {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+
+.link-linkedin ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.follow {
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 3rem;
+}
+/* Linkedin Section End */
+
+/* Footer Start */
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.foot {
+  width: 40%;
+}
+
+.foot.right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.foot.right ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.foot.right ul li a {
+  padding: 0 1rem 0 1rem;
+}
+/* Footer End */
