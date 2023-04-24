@@ -2,7 +2,7 @@ const images = [
   "url('../img/bg-2.jpg')",
   "url('../img/bg-3.jpg')",
   "url('../img/bg-4.jpg')",
-  "url('../img/bg-5.JPG')",
+  "url('../img/bg-5.jpg')",
   "url('../img/bg-1.jpg')",
 ];
 
