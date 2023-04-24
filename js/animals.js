@@ -20,7 +20,7 @@ function changeBackground() {
   }
 }
 
-// setInterval(changeBackground, 3500);
+setInterval(changeBackground, 3500);
 
 const fixedNav = document.querySelector(".fixed");
 const normal = document.querySelector(".normal");
