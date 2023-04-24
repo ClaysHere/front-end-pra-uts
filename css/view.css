@@ -1,335 +1,253 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  body {
-    width: 100%;
-    min-height: 100vh;
-  }
-  
-  a {
-    color: #ffffff;
-  }
-  
-  /* Cover Start */
-  .view-cover {
-    width: 100%;
-    /* height: 100vh; */
-    background-color: #006994;
-    color: #ffffff;
-    box-shadow: 0rem 1rem 0.5rem #006994;
-  }
-  
-  /* Cover End */
-  
-  /* Navbar Start */
-  .fixed {
-    display: none;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 3.9rem;
-    background-color: rgba(0, 0, 0, 1);
-    z-index: 9999;
-  }
-  
-  .normal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 6%;
-    background-color: rgba(0, 0, 0, 1);
-  }
-  
-  .nav {
-    width: 30%;
-    align-items: center;
-    height: 10vh;
-  }
-  
-  .nav.right {
-    justify-content: right;
-    display: flex;
-  }
-  
-  .nav.left {
-    justify-content: left;
-    display: flex;
-  }
-  
-  .nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    width: 70%;
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-  
-  .nav a:hover,
-  a#view:hover,
-  .tab-animal a:hover {
-    color: #80ff00;
-  }
-  
-  .nav a::after,
-  a#view::after,
-  .tab-animal a::after {
-    content: "";
-    display: block;
-    padding-bottom: 0.5rem;
-    border-bottom: 0.1rem solid #80ff00;
-    transform: scaleX(0);
-    transition: 0.2s linear;
-  }
-  
-  .nav a:hover::after,
-  a#view:hover::after,
-  .tab-animal a:hover::after {
-    transform: scaleX(1);
-  }
-  
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logo.for-nav {
-    font-size: 2rem;
-  }
-  
-  .logo.for-footer {
-    font-size: 1.5rem;
-  }
-  
-  .logo a {
-    font-family: "Chivo Mono", monospace;
-  }
-  
-  .logo a span {
-    font-style: italic;
-    color: #80ff00;
-  }
-  /* Navbar End */
-  
-  /* View Section Start */
-  .box-view {
-    padding-top: 6rem;
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 94%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-  }
-  
-  .box-view h1 {
-    font-size: 2rem;
-  }
-  
-  #title-1 {
-    text-shadow: #80ff00 0 0 3rem;
-  }
-  
-  .box-view .judul {
-    font-family: "Chivo Mono", monospace;
-    color: #80ff00;
-    font-style: italic;
-  }
-  
-  .view-cover .normal {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  
-  .tab-animal {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 2rem 0;
-  }
-  
-  .box-view .tab-animal a {
-    cursor: pointer;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-  
-  /* Tabel Start */
-  table {
-    width: 90%;
-  }
-  
-  td {
-    width: 50%;
-    padding: 1rem;
-  }
-  
-  .text {
-    width: 100%;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .animals {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 94%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    color: #ffffff;
-    position: relative;
-    height: 1000px;
-  }
-  
-  .animal {
-    position: absolute;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 30%;
-    font-size: 2.5rem;
-  }
-  
-  .animal a {
-    padding: 1.5rem;
-    position: relative;
-    font-weight: 500;
-  }
-  
-  .animal a:hover {
-    color: #80ff00;
-  }
-  
-  .animal a#blue-whale-nav::after {
-    content: "";
-    position: absolute;
-    top: -1.5rem;
-    right: 25rem;
-    width: 15rem;
-    height: 25rem;
-    background-image: url("../img/bl-wh-1.jpg");
-    background-size: cover;
-    opacity: 1;
-    transition: all 0.3s ease; 
-    border-radius: 0.5rem;
-  }
-  
-  .animal a#red-panda-nav::after {
-    content: "";
-    position: absolute;
-    top: -1.5rem;
-    left: 25rem;
-    width: 15rem;
-    height: 25rem;
-    background-image: url("../img/rd-pd-1.jpg");
-    background-size: cover;
-    opacity: 1;
-    transition: all 0.3s ease; 
-    border-radius: 0.5rem;
-  }
-  
-  .animal a#great-white-shark-nav::after {
-    content: "";
-    position: absolute;
-    bottom: 16rem;
-    left: 15rem;
-    width: 20.5rem;
-    height: 14rem;
-    background-image: url("../img/wh-sh-1.jpg");
-    background-size: cover;
-    opacity: 1;
-    transition: all 0.3s ease; 
-    border-radius: 0.5rem;
-  }
-  
-  .animal a#great-white-shark-nav::before {
-    content: "";
-    position: absolute;
-    bottom: 16rem;
-    right: 15rem;
-    width: 20.5rem;
-    height: 14rem;
-    background-image: url("../img/wh-sh-2.jpg");
-    background-size: cover;
-    opacity: 1;
-    transition: all 0.3s ease; 
-    border-radius: 0.5rem;
-  }
-  
-  .animal a#dugong-nav::after {
-    content: "";
-    position: absolute;
-    top: 10rem;
-    left:0rem;
-    width: 20rem;
-    height: 14rem;
-    background-image: url("../img/dg-1.jpg");
-    background-size: cover;
-    opacity: 1;
-    transition: all 0.3s ease; 
-    border-radius: 0.5rem;
-  }
-  
-  .animal a#sumatran-rhinoceros-nav::after {
-    content: "";
-    position: absolute;
-    top: 10rem;
-    right: 0rem;
-    width: 20rem;
-    height: 14rem;
-    background-image: url("../img/sm-rh-1.jpg");
-    background-size: cover;
-    opacity: 1;
-    transition: all 0.3s ease; 
-    border-radius: 0.5rem;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
 
-ol li{
-    list-style-type: decimal;
-  }
-  /* View Section End */
-  
-  /* Footer Start */
-  footer {
-    background-color: rgba(0, 0, 0, 1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .foot {
-    width: 40%;
-  }
-  
-  .foot.right {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-  
-  .foot.right ul {
-    display: flex;
-    justify-content: space-evenly;
-    width: 60%;
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-  
-  .foot.right ul li a {
-    padding: 0 1rem 0 1rem;
-  }
-  /* Footer End */
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  color: #ffffff;
+}
+
+/* Cover Start */
+.view-cover {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #006994;
+  color: #ffffff;
+  box-shadow: 0rem 1rem 0.5rem #006994;
+}
+
+/* Cover End */
+
+/* Navbar Start */
+.fixed {
+  display: none;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3.9rem;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 9999;
+}
+
+.normal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 6%;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.nav {
+  width: 30%;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav.right {
+  justify-content: right;
+  display: flex;
+}
+
+.nav.left {
+  justify-content: left;
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.nav a:hover,
+a#view:hover,
+.tab-animal a:hover {
+  color: #80ff00;
+}
+
+.nav a::after,
+a#view::after,
+.tab-animal a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #80ff00;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.nav a:hover::after,
+a#view:hover::after,
+.tab-animal a:hover::after {
+  transform: scaleX(1);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo.for-nav {
+  font-size: 2rem;
+}
+
+.logo.for-footer {
+  font-size: 1.5rem;
+}
+
+.logo a {
+  font-family: "Chivo Mono", monospace;
+}
+
+.logo a span {
+  font-style: italic;
+  color: #80ff00;
+}
+/* Navbar End */
+
+/* View Section Start */
+.box-view {
+  padding-top: 6rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.box-view h1 {
+  font-size: 2rem;
+}
+
+#title-1 {
+  text-shadow: #80ff00 0 0 3rem;
+}
+
+.box-view .judul {
+  font-family: "Chivo Mono", monospace;
+  color: #80ff00;
+  font-style: italic;
+}
+
+.view-cover .normal {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tab-animal {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.box-view .tab-animal a {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+table {
+  width: 90%;
+}
+
+td {
+  width: 50%;
+  padding: 1rem;
+}
+
+.img {
+  text-align: center;
+  vertical-align: top;
+}
+
+.text {
+  width: 100%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animals {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  height: 1000px;
+}
+
+.animal {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 30%;
+  font-size: 2.5rem;
+}
+
+.animal a {
+  padding: 1.5rem;
+  position: relative;
+  font-weight: 500;
+}
+
+.animal a:hover {
+  color: #80ff00;
+}
+
+
+/* View Section End */
+
+/* Footer Start */
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.foot {
+  width: 40%;
+}
+
+.foot.right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.foot.right ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.foot.right ul li a {
+  padding: 0 1rem 0 1rem;
+}
+/* Footer End */
