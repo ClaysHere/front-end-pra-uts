@@ -1,4 +1,4 @@
-const images = [
+const photo = [
   "url('../img/bg-2.jpg')",
   "url('../img/bg-3.jpg')",
   "url('../img/bg-4.jpg')",
@@ -11,11 +11,11 @@ const body = document.querySelector(".cover");
 let index = 0;
 
 function changeBackground() {
-  body.style.backgroundImage = images[index];
+  body.style.backgroundImage = photo[index];
 
   index++;
 
-  if (index >= images.length) {
+  if (index >= photo.length) {
     index = 0;
   }
 }
